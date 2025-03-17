@@ -424,6 +424,7 @@ header {
 
 .subscribe__form input, textarea{
   border: 1px solid black;
+  width: 200%;
   padding: 1rem;
   border-radius: 10px;
   font-size: 1rem;
@@ -502,7 +503,6 @@ header {
   color: var(--secondary-color);
   border-top: 1px solid var(--text-light);
 }
-
 
 @media (width >= 1200px) {
   .subscribe__form input, textarea {
@@ -891,7 +891,6 @@ header {
   justify-content: center;
   width: 30px;
   height: 30px;
-  margin: 0 5px;
   color: var(--extra-light);
   border-radius: 50%;
   font-size: 1.2rem;
@@ -900,6 +899,18 @@ header {
 
 .footer__socials a:hover {
   background: var(--primary-color-dark);
+}
+
+@media(width > 460px) {
+  .footer__socials a {
+    margin: 0 5px;
+  }
+}
+
+@media(width <= 460px) {
+  .footer__socials a {
+    margin: 0 1px;
+  }
 }
 
 
