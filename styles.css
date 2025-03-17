@@ -512,6 +512,10 @@ header {
   .header__image img:nth-child(2) {
     max-width: 200px;
   }
+
+  .subscribe__form input, textarea {
+    width: 200%;
+  }
 }
 
 @media (width < 900px) {
@@ -532,6 +536,10 @@ header {
 
   .trip__grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .subscribe__form input, textarea {
+    width: 150%;
   }
 }
 
@@ -554,6 +562,10 @@ header {
 
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .subscribe__form input, textarea {
+    width: 100%;
   }
 }
 
