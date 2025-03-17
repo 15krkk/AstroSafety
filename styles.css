@@ -503,6 +503,13 @@ header {
   border-top: 1px solid var(--text-light);
 }
 
+
+@media (width >= 1200px) {
+  .subscribe__form input, textarea {
+    width: 200%;
+  }
+}
+
 @media (width < 1200px) {
   .header__image img:nth-child(1) {
     max-width: 300px;
