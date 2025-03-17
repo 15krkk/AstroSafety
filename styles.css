@@ -889,8 +889,6 @@ header {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 30px;
-  height: 30px;
   color: var(--extra-light);
   border-radius: 50%;
   font-size: 1.2rem;
