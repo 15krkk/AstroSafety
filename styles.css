@@ -735,7 +735,7 @@ header {
 
 
 
-@media (max-width: 1000px) {
+@media (max-width: 1500px) {
   .info-section {
       flex-direction: column;
       height: auto;
